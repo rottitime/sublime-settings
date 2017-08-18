@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"http_proxy": "proxy.scee.net:3128",
+	"https_proxy": "proxy.scee.net:3128",
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Boxy Theme",
+		"Emmet",
+		"Git",
+		"Git Conflict Resolver",
+		"Grunt",
+		"LESS",
+		"Local History",
+		"Maven",
+		"Package Control",
+		"Sass"
+	],
+	"proxy_password": "",
+	"proxy_username": ""
+}

@@ -1,0 +1,57 @@
+{
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Tomorrow.tmTheme",
+	"draw_minimap_border": true,
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 9,
+	"gutter": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"maven_menu_commands":
+	[
+		{
+			"args":
+			{
+				"goals":
+				[
+					"clean",
+					"install"
+				],
+				"paths":
+				[
+				]
+			},
+			"caption": "1. PDC: Run clean install",
+			"command": "maven"
+		},
+		{
+			"args":
+			{
+				"goals":
+				[
+					"clean",
+					"install",
+					"content-package:install",
+					"-Dvault.targetURL=http://localhost:4502/crx/packmgr/service.jsp",
+					"-Dvault.useProxy=false"
+				],
+				"paths":
+				[
+				]
+			},
+			"caption": "2. PDC APP: Run clean install",
+			"command": "maven"
+		}
+	],
+	"shift_tab_unindent": true,
+	"theme": "Boxy Tomorrow.sublime-theme",
+    "tab_size": 4,
+	"translate_tabs_to_spaces": false,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": "true"
+}
